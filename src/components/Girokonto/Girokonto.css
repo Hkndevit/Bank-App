@@ -1,0 +1,70 @@
+.logo {
+    margin: 5vw;
+    font-size: 30px;
+    color: white;
+}
+
+.automat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 2px 200px;
+    background-color: rgb(255, 92, 92);
+    color: white;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.display {
+    padding: 5vw 10vw;
+    border-radius: 20px;
+    background-color: rgb(238, 240, 250);
+    color: rgb(1, 1, 29);
+    
+}
+
+.display h1 {
+    font-size: 20px;
+
+}
+
+.input {
+    margin: 10px;
+    padding: 7px;
+}
+
+.einzahlen, .auszahlen {
+    margin: 5vw 1vw;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.einzahlen {
+    background-color: rgb(7, 111, 7);
+    color: white;
+    font-size: 15px;
+}
+
+.einzahlen:hover {
+    background-color: rgb(10, 151, 10);
+}
+
+.auszahlen {
+    background-color: rgb(174, 35, 35);
+    color: white;
+    font-size: 15px;
+}
+
+.auszahlen:hover {
+    background-color: rgb(238, 42, 42);
+}
